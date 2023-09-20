@@ -1,0 +1,290 @@
+{
+    "meta": { "theme": "eloquent" },
+    "basics": {
+      "name": "Anthony Dreessen",
+      "label": "Full Stack Senior Software Engineer",
+      "email": "anthonydreessen@gmail.com",
+      "phone": "(425) 205-1032",
+      "summary": "Full stack developer in multiple stacks. If you need it done, I can do it. I enjoy creating simple interfaces. Developer UX is my priority.",
+      "location": {
+        "city": "Seattle",
+        "countryCode": "US",
+        "region": "Washington"
+      },
+      "profiles": [
+        {
+          "network": "Github",
+          "username": "Pinwheeler",
+          "url": "http://github.com/pinwheeler"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "AWS",
+        "position": "Technical Lead",
+        "website": "https://aws.amazon.com",
+        "startDate": "2022-07-01",
+        "summary": "Lead engineer on a skunkworks R&D team providing automation solutions to various regulatory applications",
+        "highlights": [
+          "Create internal aws platform to automate high judgement tasks",
+          "Automate rasterized (protected) PDF text & semantic search in the cloud",
+          "Expose authZ/authN mechanisms for other partner teams to utilize for hosting on shared platform",
+          "provide much needed technical guidance",
+          "Provided outsized impact relative to team size"
+        ]
+      },
+      {
+        "company": "Microgroove",
+        "position": "Senior Engineer",
+        "website": "https://www.microgroove.com/",
+        "startDate": "2020-04-01",
+        "endDate": "2022-07-01",
+        "summary": "Consulting on a variety of interesting projects",
+        "highlights": [
+          "Most highlights are under NDA",
+          "fully rework a flash animation into a react application before flash was hard deprecated: https://jazzinamerica.org/HerbieHancock"
+        ]
+      },
+      {
+        "company": "Voom, an Airbus Company",
+        "position": "Senior Full Stack Software Engineer",
+        "website": "https://voom.flights",
+        "startDate": "2019-03-01",
+        "endDate": "2020-05-01",
+        "summary": "Develop out all layers of the application Postgres / Rails / React/RN for helicopter ridesharing application running internationally out of Sao Paulo, Mexico City, and San Francisco.",
+        "highlights": [
+          "Develop custom React Native components for interfacing with native mobile code library of Adyen, our payment processor.",
+          "Gain expertise in React and React Native patterns and best practices (hooks, contexts, React Navigation, axios), gain team buy-in, and migrate codebase into a modern, clean syntax.",
+          "Design “playground” exercises to help mentor teammates into becoming more comfortable with modern React syntax",
+          "Implement universal links on React Native which had enough gotchas to warrant its own blog post."
+        ]
+      },
+      {
+        "company": "Snap! Raise",
+        "position": "Full Stack Engineer (Mobile FE)",
+        "website": "https://www.snap-raise.com/",
+        "startDate": "2017-12-01",
+        "endDate": "2019-03-01",
+        "summary": "Develop out both the Rails API and the Swift frontend. Endpoints developed in Rails were also consumed by the Android team. Testing evangelist and expert, backfilling dozens of untested files and functions as part of our KPI goals as an engineering team.",
+        "highlights": [
+          "Introduced DI into iOS project",
+          "Introduced automated unit testing into iOS project",
+          "Developed most used feature on iOS (WWYDW)",
+          "Revamped networking layer to use service-based architecture",
+          "CodeClimate complexity metric shows that my commits reduced the complexity of the codebase by half"
+        ]
+      },
+      {
+        "company": "Victorious",
+        "position": "iOS Engineer",
+        "startDate": "2017-03-01",
+        "endDate": "2017-09-01",
+        "summary": "Create interesting and engaging experiences for users of the Victorious platform. These generally include video streaming/video data playback/management/recording CDN. Heavily tested, though not TDD. I was responsible for CI management, bug tracking, issue handling, story creation, product design, technical design. During my time I made large, sweeping refactor changes to the codebase that were vetted by my team members and noted to be improvements on QOL for developers.",
+        "highlights": [
+          "Developed Video Reactions feature and associated tests",
+          "2-stage setup allowing for finer-grained control of remote resource initialization. This allowed for decoupling of different forms of template information.",
+          "Constructed easy way for object serialization/deserialization for communication over REST as JSON representation.",
+          "Transitioned codebase from Jenkins CI solution into using Circle CI",
+          "Orchestrated complex REST-iOS handshakes to store and video data in a way that appeared seamless to the user",
+          "Set up Fastlane automated deployment pipeline",
+          "Oversaw transition from proprietary 'command-pattern' Operation asynchronous communication method with backend into 'object-pattern' Promise asynchronous communication method",
+          "exposed new and more efficient “seams” into which tests were and could be placed",
+          "Realtime chat functionality through communication with Firebase messaging system"
+        ]
+      },
+      {
+        "company": "Onward",
+        "position": "iOS Engineer",
+        "startDate": "2016-10-01",
+        "endDate": "2017-03-01",
+        "summary": "A company whose platform is designed to help people reduce their internet use in areas they feel they overuse. I was largely responsible for displaying the large amounts of time data in a performant, beautiful, interactive graphical interface, though I had a hand in the design of the AI chatbot that is working behind the scenes as well as porting the VPN from an older version of swift to a newer one.",
+        "highlights": [
+          "Used CoreGraphics and CoreAnimation to construct highly customizable and performant circle graph component",
+          "Ported mac client from older version of Swift into newer version.",
+          "Built installer application for mac client that implemented auto (background) updates",
+          "Ported VPN code from an older version of swift to a newer one requiring the rewriting of low-level (C) code and the interfacing between it and swift",
+          "Monitored crash reports. Diagnosed and fixed bugs as they appeared when time permitted",
+          "Narrated step counter feature",
+          "Automated emails and messages to accountability partners feature",
+          "'No Lag' unbounded scaling graph plotting huge amounts of internet usage data feature"
+        ]
+      },
+      {
+        "company": "Pivotal Labs",
+        "position": "Software Engineer",
+        "website": "https://tanzu.vmware.com/labs",
+        "startDate": "2015-03-01",
+        "endDate": "2016-10-01",
+        "summary": "Consulting work for various enterprise companies as well as startups. Work on both assistant products as well as flagship products. Generally speaking, we’re using TDD, CI, pairing, and heavy automation to not only build software but streamline the process for our clients. I’ve done both software work and operations/automation work that helps developers. Projects have included front end (mobile and web), back end, database work, and all three combined. Parrit: Side Project: A side project that came out of a need that we had while on one of my client teams. A pair rotation management tool that helps make sure that there are no knowledge silos on a team. I rallied a group of people to make this happen and continue to do development on it.",
+        "highlights": [
+          "Large number of features and tests developed in Swift or Objective-C",
+          "Location-based “offer near you” feature",
+          "StoreKit integrations",
+          "Sweeping refactors that broke apart monolith classes into clean, discrete classes and allowed for the removal of thousands of lines of unknowingly unused code",
+          "Integration with third party authentication services as well as keychain and touchID services",
+          "Large numbers of UI redesigns",
+          "Greenfielded project using Postgres, Spring, JUnit, React/Redux, Jasmine, Node.JS, webpack, AWS",
+          "Contributed to the creation of everything in the application from database all the way through the front end.",
+          "Rails/Backbone work developing large number of features and recommendation engine with associated tests in rspec, Jasmine, and Selenium/PhantomJS",
+          "Constructed mock back end servers in both Rails and Spring to assist in writing Integration tests where server features had not yet been developed",
+          "Spring/Angular work with associated tests",
+          "Contributed to product direction meetings",
+          "Advised on framework decisions",
+          "Interviewed candidates"
+        ]
+      },
+      {
+        "company": "Levatas",
+        "position": "Software Engineer",
+        "website": "https://www.levatas.com/",
+        "startDate": "2014-01-01",
+        "endDate": "2015-02-01",
+        "summary": "Modern “full shop” agency where design meets technology. Involved designing and building websites and applications for various clientele to help them meet their marketing goals. Clients included HSBC, Cisco, Duffy’s and more",
+        "highlights": [
+          "Developed Staff front-end software using Dojo to assist in loan origination",
+          "Developed ip address and router requirement projection simulation application in Flex",
+          "Maintained chat application in iOS and Android"
+        ]
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Plenti LLC",
+        "position": "Owner, Sole Developer",
+        "website": "https://plenti.dev",
+        "startDate": "2019-09-01",
+        "summary": "Application developed to assist gardeners and farmers in giving away their excess produce to neighbors and food banks",
+        "highlights": [
+          "FE originally written in Flutter, but completely rewritten in React Native (ask me why)",
+          "Spring Boot backend",
+          "Raw socket connections for realtime chat"
+        ]
+      },
+      {
+        "organization": "Parrit",
+        "position": "Product Owner",
+        "website": "https://parrit.cfapps.io",
+        "startDate": "2016-05-01",
+        "summary": "Application developed on Pivotal Labs Beach time that assists remote teams who are doing pair programing in deciding who is going to pair with whom on a given day",
+        "highlights": [
+          "Created core team from people also on the beach who were motivated to try out this project.",
+          "Continued to evangelize project and it is now being used (in small pockets) all around the world!"
+        ]
+      },
+      {
+        "organization": "Mr. Magician",
+        "position": "iOS Developer",
+        "website": "https://apps.apple.com/us/app/1-800-magic/id1438298101",
+        "startDate": "2015-06-01",
+        "summary": "Fun magic trick application that I built for my father who is a semi professional magician"
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Washington",
+        "area": "Cultural Anthropology",
+        "studyType": "Bachelor (BA)",
+        "startDate": "2009-09-01",
+        "endDate": "2012-06-01",
+        "gpa": "3.65"
+      },
+      {
+        "institution": "University of Washington",
+        "area": "Psychology",
+        "studyType": "Bachelor (BS)",
+        "startDate": "2009-09-01",
+        "endDate": "2012-06-01",
+        "gpa": "3.65"
+      }
+    ],
+    "awards": [
+      {
+        "title": "Best Game",
+        "date": "2014-11-01",
+        "awarder": "HackLab North Boynton",
+        "summary": "Winner of Best game in the 2014 HackLab gamejam"
+      }
+    ],
+    "publications": [
+      {
+        "name": "Universal Links with React Native (iOS)",
+        "publisher": "Medium",
+        "releaseDate": "2019-06-12",
+        "website": "https://blog.voom.flights/universal-links-with-react-native-ios-18457481ccaf?gi=edd26fcc046",
+        "summary": "Clear walkthrough of the various gotchas that come up when trying to implement universal links on React Native"
+      },
+      {
+        "name": "Externalized Postgres in Spring Boot",
+        "publisher": "Medium",
+        "releaseDate": "2020-03-17",
+        "website": "https://medium.com/@anthonyjamesdreessen/externalized-postgres-in-spring-boot-9043de80a7df",
+        "summary": "modern walkthrough putting together a spring application that uses an external postgres datasource"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Web Development",
+        "level": "Advanced",
+        "keywords": ["HTML", "CSS", "Javascript", "React", "Typescript"]
+      },
+      {
+        "name": "Mobile Development",
+        "level": "Master",
+        "keywords": ["iOS", "Android", "React Native", "Flutter"]
+      },
+      {
+        "name": "API Development",
+        "level": "Advanced",
+        "keywords": ["Spring Boot", "Rails", "REST", "Sockets", "AWS"]
+      },
+      {
+        "name": "Automated Testing",
+        "level": "Master",
+        "keywords": [
+          "jUnit",
+          "Jest",
+          "Capybara",
+          "rspec",
+          "Quick/Nimble",
+          "Hydra",
+          "Cypress"
+        ]
+      },
+      {
+        "name": "CI/CD",
+        "level": "Advanced",
+        "keywords": ["CircleCI", "Jenkins", "Fastlane", "@amzn/pipelines"]
+      },
+      {
+        "name": "DevOps",
+        "level": "Intermediate",
+        "keywords": ["Apache", "Gradle", "DigitalOcean", "Linux", "AWS CDK"]
+      },
+      {
+        "name": "DBA",
+        "level": "Advanced",
+        "keywords": ["Postgres", "AWS RDS", "AWS QLDB"]
+      }
+    ],
+    "interests": [
+      {
+        "name": "Ecology",
+        "keywords": ["Permaculture", "Gardening", "Permaculture Design"]
+      },
+      {
+        "name": "Outdoors",
+        "keywords": ["Hiking", "Mycology", "Foraging"]
+      },
+      {
+        "name": "Arts",
+        "keywords": ["Acting", "Guitar", "Dance", "Singing"]
+      }
+    ],
+    "references": [
+      {
+        "name": "Luis Castillo",
+        "reference": "I consider myself very fortunate to have work with Antoine. He proved himself an essential part of the development team early on. His knowledge on Software and Testing methodologies helped not only elevate our enterprise mobile application but our internal API. Anyone to have Antoine in their team will be very fortunate. He is a amazing developer with a great attitude, strategy and enthusiasm. I enjoy working with Antoine and will be very happy to work with him again."
+      }
+    ]
+  }
