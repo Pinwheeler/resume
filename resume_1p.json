@@ -1,0 +1,142 @@
+{
+    "meta": { "theme": "contempo" },
+    "basics": {
+      "name": "Anthony Dreessen",
+      "label": "Full Stack Senior Software Engineer",
+      "email": "anthonydreessen@gmail.com",
+      "location": {
+        "city": "Seattle",
+        "countryCode": "US",
+        "region": "Washington"
+      },
+      "profiles": [
+        {
+          "network": "Github",
+          "username": "Pinwheeler",
+          "url": "http://github.com/pinwheeler"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "AWS",
+        "position": "Regulatory Program Manager",
+        "website": "https://aws.amazon.com",
+        "startDate": "2022-07-01",
+        "summary": "Lead engineer on a skunkworks R&D team providing automation solutions to various regulatory applications"
+      },
+      {
+        "company": "Microgroove",
+        "position": "Senior Engineer",
+        "website": "https://www.microgroove.com/",
+        "startDate": "2020-04-01",
+        "endDate": "2022-07-01",
+        "summary": "Consulting on a variety of interesting projects."
+      },
+      {
+        "company": "Voom, an Airbus Company",
+        "position": "Senior Full Stack Software Engineer",
+        "website": "https://voom.flights",
+        "startDate": "2019-03-01",
+        "endDate": "2020-05-01",
+        "summary": "Develop out all layers of the application Postgres / Rails / React/RN for helicopter ridesharing application running internationally out of Sao Paulo, Mexico City, and San Francisco."
+      },
+      {
+        "company": "Snap! Raise",
+        "position": "Full Stack Engineer (Mobile FE)",
+        "website": "https://www.snap-raise.com/",
+        "startDate": "2017-12-01",
+        "endDate": "2019-03-01",
+        "summary": "Develop out both the Rails API and the Swift frontend."
+      },
+      {
+        "company": "Victorious",
+        "position": "iOS Engineer",
+        "startDate": "2017-03-01",
+        "endDate": "2017-09-01",
+        "summary": "Create interesting and engaging experiences for users of the Victorious platform."
+      },
+      {
+        "company": "Onward",
+        "position": "iOS Engineer",
+        "startDate": "2016-10-01",
+        "endDate": "2017-03-01",
+        "summary": "Company mission to help people reduce screentime. I was primarily responsible for rendering data displaying said screentime."
+      },
+      {
+        "company": "Pivotal Labs",
+        "position": "Software Engineer",
+        "website": "https://tanzu.vmware.com/labs",
+        "startDate": "2015-03-01",
+        "endDate": "2016-10-01",
+        "summary": "Consulting work for various enterprise companies as well as startups."
+      },
+      {
+        "company": "Levatas",
+        "position": "Software Engineer",
+        "website": "https://www.levatas.com/",
+        "startDate": "2014-01-01",
+        "endDate": "2015-02-01",
+        "summary": "Consulting work focusing on marketing sites, but also building staff front end sites."
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Plenti LLC",
+        "position": "Owner, Sole Developer",
+        "website": "https://plenti.dev",
+        "startDate": "2019-09-01",
+        "summary": "Application developed to assist gardeners and farmers in giving away their excess produce to neighbors and food banks"
+      },
+      {
+        "organization": "Parrit",
+        "position": "Product Owner",
+        "website": "https://parrit.cfapps.io",
+        "startDate": "2016-05-01",
+        "summary": "Application developed on Pivotal Labs Beach time that assists remote teams who are doing pair programing in deciding who is going to pair with whom on a given day"
+      },
+      {
+        "organization": "Mr. Magician",
+        "position": "iOS Developer",
+        "website": "https://apps.apple.com/us/app/1-800-magic/id1438298101",
+        "startDate": "2015-06-01",
+        "summary": "Fun magic trick application that I built for my father who is a semi professional magician"
+      }
+    ],
+    "publications": [
+      {
+        "name": "Universal Links with React Native (iOS)",
+        "publisher": "Medium",
+        "releaseDate": "2019-06-12",
+        "website": "https://blog.voom.flights/universal-links-with-react-native-ios-18457481ccaf?gi=edd26fcc046",
+        "summary": "Clear walkthrough of the various gotchas that come up when trying to implement universal links on React Native"
+      },
+      {
+        "name": "Externalized Postgres in Spring Boot",
+        "publisher": "Medium",
+        "releaseDate": "2020-03-17",
+        "website": "https://medium.com/@anthonyjamesdreessen/externalized-postgres-in-spring-boot-9043de80a7df",
+        "summary": "modern walkthrough putting together a spring application that uses an external postgres datasource"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Permaculture, Gardening, Permaculture Design",
+        "keywords": ["Permaculture", "Gardening", "Permaculture Design"]
+      },
+      {
+        "name": "Hiking, Mycology, Foraging",
+        "keywords": ["Hiking", "Mycology", "Foraging"]
+      },
+      {
+        "name": "Acting, Dance, Singing, Banjo, Guitar",
+        "keywords": ["Acting", "Guitar", "Dance", "Singing"]
+      }
+    ],
+    "references": [
+      {
+        "name": "Luis Castillo",
+        "reference": "I consider myself very fortunate to have work with Antoine. He proved himself an essential part of the development team early on. His knowledge on Software and Testing methodologies helped not only elevate our enterprise mobile application but our internal API. Anyone to have Antoine in their team will be very fortunate. He is a amazing developer with a great attitude, strategy and enthusiasm. I enjoy working with Antoine and will be very happy to work with him again."
+      }
+    ]
+  }
